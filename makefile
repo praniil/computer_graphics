@@ -8,8 +8,9 @@ CFLAGS = -std=c++11
 SFML_LIBS = -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 
 # Source files
+SRCS = circle_drawing_alog.cpp
 # SRCS = daa_line_drawing_algorithm.cpp
-SRCS = bresenham_algorithm.cpp
+# SRCS = bresenham_algorithm.cpp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)
